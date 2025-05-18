@@ -1,5 +1,48 @@
 #!/usr/bin/env python3
 
+"""
+Drone Gesture Control CLI – Appendix Code
+
+This interactive command-line interface (CLI) allows users to control a drone using gesture-based 
+image input. It combines a YOLOv8 model for gesture recognition with MAVSDK to control a simulated 
+PX4 drone in real-time.
+
+Key Components:
+---------------
+1. **YOLOv8 Model Integration**:
+   - Loads a pre-trained gesture classification/detection model (`best.pt`).
+   - Detects gestures from an input image and classifies them into predefined commands (e.g., 'takeoff', 'land').
+
+2. **Drone Control via MAVSDK**:
+   - Connects to a PX4 drone simulator over UDP.
+   - Waits for drone readiness (GPS lock, home position, etc.).
+   - Supports basic drone commands such as `takeoff` and `land`.
+
+3. **CLI Commands**:
+   - `detect <image_path>`: Runs inference on the given image and takes drone action based on detection.
+   - `exit`: Exits the CLI.
+
+Technical Highlights:
+---------------------
+- **Asyncio Event Loop** is used to handle asynchronous drone control tasks.
+- **Ultralytics YOLOv8** is used for real-time object detection/classification.
+- **Command-line Interface** is built using Python’s `cmd` module for interactive usage.
+
+Usage:
+------
+Run the script and use commands like:
+    (drone) detect ./images/takeoff.png
+    (drone) exit
+
+Note:
+-----
+- Ensure a running PX4 simulator is accessible at `udp://:14540`.
+- Replace `'./best.pt'` with the correct path to your trained YOLOv8 model.
+- Dependencies include `ultralytics`, `mavsdk`, `cmd`, `asyncio`, and `json`.
+
+Author: Abdennour Alouach, Idris Elgarrab
+"""
+
 import cmd
 import asyncio
 import json
