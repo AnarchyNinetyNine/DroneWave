@@ -60,6 +60,8 @@ DroneWave/
 │   │   └── __init__.py
 │   ├── pyproject.toml
 │   └── README.md              ← (Phase 3 instructions)
+├── simulation/
+│   └── README.md              ← (Phase 4 instructions)
 ├── environments/
 │   ├── requirements.txt
 │   ├── setup_env.sh
@@ -118,7 +120,7 @@ To run this project, ensure you have:
    - [Phase 1: Data Retrieval and Auto-Annotation](scripts/data_retrieval/README.md)
    - [Phase 2: Data Processing and Manual Correction](scripts/data_processing/README.md)
    - [Phase 3: Federated Learning Setup](federated-learning/README.md)
-   - [Phase 4: Drone Control Simulation using Microsoft AirSim](Simulation/README.md)
+   - [Phase 4: Drone Control Simulation using Microsoft AirSim](simulation/README.md)
 
 ## How to Contribute
 
