@@ -3,7 +3,7 @@
 # load_model.sh
 # -----------------------------------------------------------------------------
 # This script downloads the YOLOv12n pre-trained model from Ultralytics.
-# The model will be saved in the current directory.
+# The model will be saved in the previous directory.
 # -----------------------------------------------------------------------------
 
 # Exit immediately if a command exits with a non-zero status
