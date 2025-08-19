@@ -43,11 +43,11 @@ DroneWave/
 ├── scripts/
 │   ├── data_retrieval/
 │   │   ├── request_dataset.py
-│   │   ├── unzip_dataset.py
-│   │   ├── data_annotation.py
+│   │   ├── require_dataset.py
+│   │   ├── annotate_dataset.py
 │   │   └── README.md          ← (Phase 1 instructions)
 │   └── data_processing/
-│       ├── roboflow_upload.py
+│       ├── upload_to_roboflow.py
 │       └── README.md          ← (Phase 2 instructions)
 ├── federated-learning/
 │   ├── utils
