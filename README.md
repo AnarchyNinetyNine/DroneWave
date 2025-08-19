@@ -120,6 +120,16 @@ To run this project, ensure you have:
    - [Phase 3: Federated Learning Setup](federated-learning/README.md)
    - [Phase 4: Drone Control Simulation using Microsoft AirSim](Simulation/README.md)
 
+## How to Contribute
+
+Contributions are always welcome!
+To contribute:
+1. Fork the repository
+2. Create a feature branch
+3. Submit a Pull Request (PR)
+
+Please follow [Conventional Commits](https://www.conventionalcommits.org/) for commit messages.
+
 ## Citation
 
 If you use this project or the UAV-Gesture dataset in your research, please cite the original dataset paper:
@@ -132,4 +142,4 @@ Additionally, please cite this repository:
 
 ## Contact
 
-For questions or contributions, please open an issue on GitHub or contact [franckenstein999@gmail.com].
+For questions or contributions, please open an issue on GitHub or contact [ismail.lamaakal@ieee.org].
