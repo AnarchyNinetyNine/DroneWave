@@ -140,7 +140,7 @@ If you use this project or the UAV-Gesture dataset in your research, please cite
 
 Additionally, please cite this repository:
 
-> [Lamaakal, I. Elgarrab, I. Alouach, A]. (2025). DroneWave: Distributed Training of Quantized YOLOv12 for UAV Gesture Recognition in Federated Learning Environments. [GitHub Repository](https://github.com/AnarchyNinetyNine/DroneWave.git)
+> [Lamaakal, I. Elgarrab, I. Alouach, A]. et al. (2025). DroneWave: Distributed Training of Quantized YOLOv12 for UAV Gesture Recognition in Federated Learning Environments. [GitHub Repository](https://github.com/AnarchyNinetyNine/DroneWave.git)
 
 ## Contact
 
