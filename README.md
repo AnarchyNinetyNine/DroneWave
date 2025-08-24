@@ -1,4 +1,4 @@
-<h1 align="center"> DroneWave: Distributed Training of Quantized YOLOv12 for UAV Gesture Recognition in Federated Learning Environments </h1>
+<h1 align="center"> A Vehicular-Edge Federated, Quantized YOLOv12 System for Real-Time 3D Hand-Gesture–Based UAV Control </h1>
 
 <div align="center">
 
