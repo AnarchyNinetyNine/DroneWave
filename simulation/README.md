@@ -15,6 +15,8 @@ Follow the official instructions at [https://dev.epicgames.com/documentation/en-
 
 Key steps:
 - Download and install the Epic Games Launcher from [https://www.epicgames.com/store/download](https://www.epicgames.com/store/download).
+<!-- Space for image: Epic Games Launcher -->
+![Epic Games Launcher](assets/Epic_Games_Launcher.png)
 - Sign in with your Epic Games account.
 - In the Launcher, go to the "Unreal Engine" tab.
 - Select "Library" andcentral click the "+" button to add Engine versions.
