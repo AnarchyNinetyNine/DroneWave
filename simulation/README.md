@@ -41,6 +41,8 @@ WSL is needed for certain build processes.
 
 ## Build AirSim
 
+<!-- Space for image: Visual Studio 2022 -->
+![Visual Studio 2022](assets/Visual_Studio_2022.png)
 - Install Visual Studio 2022. Download from [https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/). Make sure to select "Desktop Development with C++" and "Windows 10 SDK 10.0.19041" (should be selected by default). Also, select the latest .NET Framework SDK under the 'Individual Components' tab.
 - Start "Developer Command Prompt for VS 2022" (search in Start menu).
 - Clone the repo: `git clone https://github.com/Microsoft/AirSim.git`, and go to the AirSim directory by `cd AirSim`.
