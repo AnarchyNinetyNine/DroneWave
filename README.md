@@ -140,7 +140,15 @@ If you use this project or the UAV-Gesture dataset in your research, please cite
 
 Additionally, please cite this repository:
 
-> [Lamaakal, I. Elgarrab, I. Alouach, A]. et al. (2025). A Vehicular-Edge Federated, Quantized YOLOv12 System for Real-Time 3D Hand-Gesture–Based UAV Control. [GitHub Repository](https://github.com/AnarchyNinetyNine/DroneWave.git)
+> @ARTICLE{11313047,
+  author={Lamaakal, Ismail and Elgarrab, Idris and Alouach, Abdennour and Maleh, Yassine and El Makkaoui, Khalid and Ouahbi, Ibrahim and Alanezi, Ahmad and Khalifa, Hany S.},
+  journal={IEEE Access}, 
+  title={A Vehicular-Edge Federated, Quantized YOLOv12 System for Real-Time 3D Hand-Gestures- Based AAV Control}, 
+  year={2026},
+  volume={14},
+  number={},
+  pages={3359-3385},
+  doi={10.1109/ACCESS.2025.3647565}}
 
 ## Contact
 
