@@ -147,7 +147,7 @@ Additionally, please cite this repository:
   year={2026},
   volume={14},
   pages={3359-3385},
-  doi={10.1109/ACCESS.2025.3647565}}
+  doi={10.1109/ACCESS.2025.3647565}} [Paper link](https://ieeexplore.ieee.org/document/11313047))
 
 ## Contact
 
